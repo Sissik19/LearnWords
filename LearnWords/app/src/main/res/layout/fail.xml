@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/soundAnswer"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="@android:drawable/ic_lock_silent_mode_off"
+        android:backgroundTint="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It's not that..."
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is :"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected word"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <ImageView
+        android:id="@+id/answer"
+        android:layout_width="221dp"
+        android:layout_height="185dp"
+        app:srcCompat="@mipmap/sheep_foreground"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:background="@android:drawable/ic_menu_revert"
+        android:backgroundTint="@android:color/black"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="447dp" />
+</android.support.constraint.ConstraintLayout>

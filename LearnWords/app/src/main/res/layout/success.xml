@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Well done !"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/success2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="?attr/homeAsUpIndicator"
+        android:rotation="180"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:background="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="247dp" />
+</android.support.constraint.ConstraintLayout>
